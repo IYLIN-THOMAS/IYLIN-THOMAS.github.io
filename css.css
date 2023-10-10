@@ -1,0 +1,33 @@
+body{
+    font-family: arial;
+    font-size: 18px; 
+  }
+  header,footer{
+    background-color:lightcoral;
+  }
+  .site-title{
+     color:red;
+  }
+  #my-image{
+   box-shadow: 0 0 2px 1px black; 
+  }
+  ul{
+    list-style-type: square;
+  }
+  ul li:nth-child(odd){
+       background-color:beige;
+}
+nav ul{
+    list-style: none;
+}
+nav a {
+text-decoration: none;
+background-color: #bbc3e4;
+border: 1px solid #911064;
+padding: 5px  10px
+display: inline-block;
+margin: 7px;
+}
+nav a:hover, nav a:focus {
+    background-color: #efdddd;   
+}
